@@ -11,7 +11,6 @@ int main(void) {
         xPow *= x;
         factorial *= n++;
         e += (float)xPow / factorial;
-        printf("%u\n%u\n%.16f\n", xPow, factorial, (float)xPow / factorial);
     }
 
     printf("%f\n", e);
